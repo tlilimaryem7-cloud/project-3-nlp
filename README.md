@@ -29,3 +29,29 @@ Use the techniques you have learned and the common packages to process this data
 2. **Predictions:** A csv file in the same format as `testing_data.csv` but with the predicted labels (0 or 1)
 3. **Accuracy estimation:** Provide the teacher with your estimation of how your model will perform.
 4. **Presentation:** You will present your model in a 10-minute presentation. Your teacher will provide further instructions.
+
+
+
+
+
+# Project | NLP - text classification
+
+## Task Description
+
+You will build a text-classification model to distinguish real news from fake news.
+
+## instructions
+   
+   
+    *   Split the training.csv file into training and test sets.
+    *   Apply text preprocessing (lowercasing, tokenization, removing stop words and punctuation, etc.).
+    *   Create text vectors using Bag of Words or TF-IDF, and experiment with their parameters (n-grams, max_df, min_df, max_features, custom tokenizer, etc.).
+    *   Try different classifiers such as Logistic Regression, Random Forest, XGBoost, SVM, MultinomialNB, etc.
+    *   Perform hyperparameter tuning.
+    *   Compare all models and choose the best-performing one.
+    *   Use your best model to predict the labels in testing.csv, replacing the value 2 in the first column with your predicted class (0 or 1).
+
+
+## Deliverables
+    *   Your Jupyter NotebookA PPTX presentation
+    *   The updated testing.csv file containing your best model’s predictions
